@@ -1,0 +1,346 @@
+* { box-sizing: border-box; }
+
+body { background-image: url(pinkpawgradient.jpg);
+	   background-repeat: no-repeat;
+	   background-attachment: fixed;
+       background-size: cover;	   
+       color: #ffb6c1;
+       font-family: "Monaco", monospace;
+	   margin: 0px; }
+	   
+header { background-color: #ef98aa;
+		 background-repeat: no-repeat; 
+         color: #db7093; 
+		 padding: 0;
+		 margin: 0;
+		 top: 0; 
+		 left: 0; 
+		 width: 100%; }	 
+					 
+header h1 { margin: 0; }
+header h1 img { width: 1100px; 
+				height: auto; }
+
+header .navbar ul { transition: 0.6s;
+					display: flex;
+					justify-content: center;
+					padding: 0;
+					margin: 0;
+					list-style-type: none; }
+
+header .navbar li {
+					display: inline-block;
+					margin: 0; }
+
+header .navbar a {
+					display: inline-block;
+					padding: 0; }
+
+header .navbar img{ width: 300px; 
+					height: auto; 
+					display: block; }
+					
+					
+header .navbar a:hover {
+    background-color: #fddde6;
+    color: #db7093; }
+
+main { padding-right: 0em;
+	   padding-bottom: 2em;
+	   padding-top: 0px;
+	   padding-left: 0px;
+	   font-size: 1.5em;
+	   display: block;
+	   text-decoration: none;
+	   background-image: url(pinkpawgradient.jpg);
+       background-repeat: no-repeat;
+	   background-size: cover;
+	   overflow: auto; }
+main h2, main h3, main h4, main p, main div, main ul, main dl{ padding-left: 3em; padding-right: 2em; }
+
+#wrapper { background-image: url(pinkpawgradient.jpg);
+		   width: 80%;
+		   min-width: 900px;
+		   max-width: 1280x;
+		   margin-left: auto;
+		   margin-right: auto;
+           box-shadow: 5px 5px 5px #1E1E1E;
+		   height: 100%;
+           display: block;  
+		   padding: 0;}
+		   
+
+input, textarea { margin-bottom: 0.5em; }
+	   
+
+h1 { color: #de6fa1;  
+     font-size: 3em; 
+	 text-align: center; 
+	 margin: 0; } 
+	 
+h2 { color: #db7093; }
+
+h3 { color: #db7093; }
+
+h4 { background-color: #ffb6c1;
+     font-size: 1.2em;
+	 padding-left: 0.5em;
+	 padding-bottom: 0em; 
+	 text-transform: uppercase; 
+	 border-bottom: 1px solid #221811; 
+	 clear: left; }
+	 
+p {color: #c08081; }
+		  
+footer { background-color: #ef98aa ; 
+		 color: #c08081;
+         font-size: .60em; 
+		 text-align: center;
+		 padding: 1em; 
+		 border-top: 2px solid #8C3826;}
+img { padding-right: 2em;
+      padding-left: 2em;}
+
+.navbar { background-color: #ef98aa;
+		  overflow: hidden;
+		  width: 100%;
+		  padding: 0; 
+		  text-align: center; 
+		  position: -webkit-sticky; 
+		  position: sticky; 
+		  top: 0;
+		  z-index: 1000; } 
+
+.navbar ul{ list-style-type:none; 
+			background-color: #ef98aa; 
+			padding: 0; 
+			margin: 0; 
+			overflow: hidden; 
+			display: flex; 
+			justify-content: center; } 
+			
+.navbar li { display: inline-block; 
+			 margin: 0;}
+			
+.navbar a{ display: inline-block; 
+		   padding: 15px; 
+		   text-decoration: none; 
+		   text-align: center; }
+
+.navbar a:hover{ display: inline-block;
+				 background-color: #fddde6 ; 
+				 padding: 15px; 
+			     text-decoration: none; 
+		         text-align: center; }
+.navbar a:link{ display: inline-block;
+		        color: #ffb6c1; 
+				padding: 15px; 
+				text-decoration: none; 
+				text-align: center; }
+.navbar a:visited{ display: inline-block;
+		   color: #d470a2; 
+		   padding: 15px; 
+		   text-decoration: none; 
+		   text-align: center; }
+		   
+		   
+		   
+.design-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.design-item {
+    text-align: center;
+    margin: 5px; 
+}
+
+.design-item img {
+    display: block;
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.design-item p {
+    color: #db7093;
+    font-weight: bold;
+}
+
+h2 {text-align: center;}
+h3 {text-align: center;}
+p {text-align: center;}
+
+
+@supports (display: grid) {
+  form {  display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 6em 1fr;
+		grid-gap: 1em; gap: 1em;
+		background-color: #ef98aa ;
+	    font-family: Arial, sans-serif;
+        min-width: 25em; width: 60%; 
+		padding: 1.5em }
+  input[type="submit"] { grid-column: 2 / 3;
+                       width: 10em; margin-left: 0;} 
+}
+
+
+
+.coquette-core {
+    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/winterbunny.png') no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px; /* Set the desired height */
+    padding: 20px; /* Adjust padding to your preference */
+    color: white; /* Adjust text color if needed */
+    text-align: center;
+    font-size: 24px; /* Adjust font size to your preference */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.fantasy-sets {
+    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/fairynails.png') no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px; /* Set the desired height */
+    padding: 20px; /* Adjust padding to your preference */
+    color: white; /* Adjust text color if needed */
+    text-align: center;
+    font-size: 24px; /* Adjust font size to your preference */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.powerpuff-sets{
+    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/bubbles.png') no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px; /* Set the desired height */
+    padding: 20px; /* Adjust padding to your preference */
+    color: white; /* Adjust text color if needed */
+    text-align: center;
+    font-size: 24px; /* Adjust font size to your preference */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.anime-sets {
+    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/souleater.png') no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px; /* Set the desired height */
+    padding: 20px; /* Adjust padding to your preference */
+    color: white; /* Adjust text color if needed */
+    text-align: center;
+    font-size: 24px; /* Adjust font size to your preference */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.animal-sets {
+    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/bluebunny.png') no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px; /* Set the desired height */
+    padding: 20px; /* Adjust padding to your preference */
+    color: white; /* Adjust text color if needed */
+    text-align: center;
+    font-size: 24px; /* Adjust font size to your preference */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.y2k-sets {
+    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/icyblue.png') no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px; /* Set the desired height */
+    padding: 20px; /* Adjust padding to your preference */
+    color: white; /* Adjust text color if needed */
+    text-align: center;
+    font-size: 24px; /* Adjust font size to your preference */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+table {
+  margin: auto;
+  width: 90%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th { padding: 10px;
+     background-color: #ef98aa;
+	 border: 1px solid #000; 
+font-family: "Monaco", monospace; }
+td { padding: 10px;
+     border: 1px solid #000; 
+     font-family: "Monaco", monospace;
+     background-color: #ffe4e1; }
+
+tr:first-of-type { background-color: #000; 
+				   color: #ffffff; }
+
+th { text-align: left; }
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;}
+
+.video-background {
+    height: 100vh;
+    width: 100%;}
+
+#background-video {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content h2 {
+    margin: 0;
+}
+
+.content p {
+    font-size: 1.5em;
+}
