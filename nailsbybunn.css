@@ -190,7 +190,7 @@ p {text-align: center;}
 
 
 .coquette-core {
-    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/winterbunny.png') no-repeat center center;
+    background: url(winterbunny.png) no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 500px; /* Set the desired height */
