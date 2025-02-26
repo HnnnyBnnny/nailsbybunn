@@ -344,3 +344,104 @@ body, html {
 .content p {
     font-size: 1.5em;
 }
+
+
+
+@media (max-width: 600px) {
+nav ul { flex-flow: row nowrap; 
+		 justify-content: space-around; }
+		
+nav li { border-bottom: none; }
+}
+
+@media (max-width: 601px) {
+    .navbar ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .navbar li {
+        display: inline-block;
+    }
+}
+
+
+
+
+@media ( max-width: 1024px) { 
+@supports ( display: grid ){ 
+header { grid-area: header; }
+
+nav {grid-area: nav;}
+
+main {grid-area: main; }
+
+footer {grid-area: footer; }
+
+#wrapper {display: grid;
+          grid-template: 
+				"header header" 
+				"nav main" 
+				"footer footer"
+				/ 200px; } 
+				
+nav ul { flex-direction: column; }
+
+} 
+
+}
+
+
+
+/* Design Gallery */
+.design-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.design-item {
+    text-align: center;
+    margin: 5px;
+}
+
+.design-item img {
+    display: block;
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.design-item p {
+    color: #db7093;
+    font-weight: bold;
+
+
+
+
+
+
+
+@media ( min-width: 1024px) { 
+@supports ( display: grid ){ 
+header { grid-area: header; }
+
+
+main {grid-area: main; }
+
+footer {grid-area: footer; }
+
+#wrapper {display: grid;
+          grid-template: 
+				"header header" 
+				"nav main" 
+				"footer footer"
+				/ 200px; } 
+				
+nav ul { flex-direction: column; }
+
+header { background-image: url(coffeelogo.jpg);}
+} 
+
+}
