@@ -440,8 +440,5 @@ footer {grid-area: footer; }
 				/ 200px; } 
 				
 nav ul { flex-direction: column; }
-
-header { background-image: url(coffeelogo.jpg);}
 } 
-
 }
