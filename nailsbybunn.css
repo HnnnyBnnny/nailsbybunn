@@ -432,49 +432,119 @@ body, html {
 
 
 @media (max-width: 600px) {
-nav ul { flex-flow: row nowrap; 
-		 justify-content: space-around; }
-		
-nav li { border-bottom: none; }
-}
-
-@media (max-width: 601px) {
+	body {background-size: contain; }
+	header h1 img { width: 100%; }
+	header .navbar img {width: 100%; }
+	#wrapper { width: 100%; 
+		   min-width: 100%; 
+		   max-width: 100%; }
+	.design-item img { max-width: 100% }
+	main { padding-left: 1em; 
+	       padding-right: 1em; }
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+        padding-left: 1em;  
+        padding-right: 1em;  
+    }
+.coquette-core, .fantasy-sets, .powerpuff-sets, .anime-sets, .animal-sets, 
+    .miffy-sets, .medieval-core, .whimsical, .featured-sets, .sanrio-inspired, .film-sets {
+        height: auto;  
+        padding: 10px;  
+        font-size: 18px;  }
+    nav ul {
+        flex-flow: row nowrap;  
+        justify-content: space-around; }
+    nav li {
+        border-bottom: none;   }
     .navbar ul {
         display: flex;
-        justify-content: space-around;
-    }
-    
+        justify-content: space-around;  }
     .navbar li {
-        display: inline-block;
+        display: inline-block; }
+@media (max-width: 768px) {
+    body {
+        background-size: contain; 
+    }
+    header h1 img {
+        width: 100%; 
+    }
+    header .navbar img {
+        width: 100%;  
+    }
+    #wrapper {
+        width: 100%; 
+        min-width: 100%;  
+        max-width: 100%;  
+    }
+    .design-item img {
+        max-width: 100%; 
+    }
+    main {
+        padding-left: 1em;  
+        padding-right: 1em;  
+    }
+    main h2, main h3, main h4, main p, main div, main ul, main dl {
+        padding-left: 1em;  
+        padding-right: 1em; 
+    }
+    .coquette-core, .fantasy-sets, .powerpuff-sets, .anime-sets, .animal-sets, 
+    .miffy-sets, .medieval-core, .whimsical, .featured-sets, .sanrio-inspired, .film-sets {
+        height: auto; 
+        padding: 10px;  
+        font-size: 18px; 
+    }
+    nav ul {
+        flex-flow: row nowrap;  
+        justify-content: space-around;  
+    }
+    nav li {
+        border-bottom: none;  
+    }
+    .navbar ul {
+        display: flex; 
+        justify-content: space-around; 
+    }
+    .navbar li {
+        display: inline-block; 
+    }
+}
+
+@media (max-width: 1024px) {
+    #wrapper {
+        width: 100%;  
+        padding: 0;  
+    }
+    .design-gallery {
+        flex-direction: column;  
+        align-items: center;  
+    }
+    .design-item img {
+        max-width: 100%;  
     }
 }
 
 
-
-
-@media ( max-width: 1024px) { 
-@supports ( display: grid ){ 
-header { grid-area: header; }
-
-nav {grid-area: nav;}
-
-main {grid-area: main; }
-
-footer {grid-area: footer; }
-
-#wrapper {display: grid;
-          grid-template: 
-				"header header" 
-				"nav main" 
-				"footer footer"
-				/ 200px; } 
-				
-nav ul { flex-direction: column; }
-
-} 
-
+.video-background {
+    height: auto; 
 }
 
+#background-video {
+    min-width: 100%; 
+    min-height: auto;  
+    width: auto;  
+    height: auto;  
+}
+
+.content {
+    padding: 10px; 
+}
+
+.content h2 {
+    font-size: 1.2em; 
+}
+
+.content p {
+    font-size: 1em; 
+}
 
 
 /* Design Gallery */
