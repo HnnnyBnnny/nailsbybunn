@@ -18,8 +18,8 @@ header { background-color: #ef98aa;
 		 width: 100%; }	 
 					 
 header h1 { margin: 0; }
-header h1 img { width: 1100px; 
-				height: auto; }
+header h1 img { width: 100%; 
+		height: auto; }
 
 header .navbar ul { transition: 0.6s;
 					display: flex;
@@ -36,9 +36,9 @@ header .navbar a {
 					display: inline-block;
 					padding: 0; }
 
-header .navbar img{ width: 300px; 
-					height: auto; 
-					display: block; }
+header .navbar img{ width: 100px; 
+		    height: auto; 
+		    display: block; }
 					
 					
 header .navbar a:hover {
@@ -56,12 +56,12 @@ main { padding-right: 0em;
        background-repeat: no-repeat;
 	   background-size: cover;
 	   overflow: auto; }
-main h2, main h3, main h4, main p, main div, main ul, main dl{ padding-left: 3em; padding-right: 2em; }
+main h2, main h3, main h4, main p, main div, main ul, main dl{ padding-left: 1em; padding-right: 1em; text-align: center; }
 
 #wrapper { background-image: url(pinkpawgradient.jpg);
-		   width: 80%;
-		   min-width: 900px;
-		   max-width: 1280x;
+		   width: 100%;
+		   min-width: 100%;
+		   max-width: 100%;
 		   margin-left: auto;
 		   margin-right: auto;
            box-shadow: 5px 5px 5px #1E1E1E;
@@ -165,7 +165,8 @@ img { padding-right: 2em;
 
 .design-item img {
     display: block;
-    max-width: 1000px;
+    width: 100%; 
+    max-width: 300px;
     height: auto;
     margin-bottom: 5px;
 }
