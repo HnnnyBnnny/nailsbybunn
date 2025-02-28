@@ -91,6 +91,12 @@ h4 { background-color: #ffb6c1;
 	 clear: left; }
 	 
 p {color: #c08081; }
+
+ul {list-style-type: none; }
+
+ul li { text-align: center; 
+		color: #c08081;
+        text-decoration: none; }
 		  
 footer { background-color: #ef98aa ; 
 		 color: #c08081;
