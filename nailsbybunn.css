@@ -206,7 +206,7 @@ p {text-align: center;}
 }
 
 .fantasy-sets {
-    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/fairynails.png') no-repeat center center;
+    background: url(fairynails.png) no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 500px; /* Set the desired height */
@@ -222,7 +222,7 @@ p {text-align: center;}
 }
 
 .powerpuff-sets{
-    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/bubbles.png') no-repeat center center;
+    background: url(bubbles.png) no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 500px; /* Set the desired height */
@@ -238,7 +238,7 @@ p {text-align: center;}
 }
 
 .anime-sets {
-    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/souleater.png') no-repeat center center;
+    background: url(souleater.png) no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 500px; /* Set the desired height */
@@ -254,7 +254,7 @@ p {text-align: center;}
 }
 
 .animal-sets {
-    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/bluebunny.png') no-repeat center center;
+    background: url(bluebunny.png) no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 500px; /* Set the desired height */
@@ -270,7 +270,7 @@ p {text-align: center;}
 }
 
 .y2k-sets {
-    background: url('C:/Users/faria/OneDrive/CISWEB-72/final project/icyblue.png') no-repeat center center;
+    background: url(icyblue.png) no-repeat center center;
     background-size: cover;
     max-width: 100%;
     height: 500px; /* Set the desired height */
