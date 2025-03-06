@@ -458,6 +458,10 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
         justify-content: space-around;  }
     .navbar li {
         display: inline-block; }
+    .navbar img {
+	    width: 100px; 
+	    height: auto; }
+    }
 @media (max-width: 768px) {
     body {
         background-size: contain; 
@@ -466,7 +470,8 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
         width: 100%; 
     }
     header .navbar img {
-        width: 100%;  
+        width: 100px;
+	height: auto; 
     }
     #wrapper {
         width: 100%; 
@@ -504,6 +509,10 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
     .navbar li {
         display: inline-block; 
     }
+    .navbar img {
+	    width: 120px; 
+	    height: auto; 
+    }
 }
 
 @media (max-width: 1024px) {
@@ -517,6 +526,10 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
     }
     .design-item img {
         max-width: 100%;  
+    }
+    .navbar img {
+	    width: 150px; 
+	    height: auto; 
     }
 }
 
