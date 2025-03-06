@@ -452,15 +452,14 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
         flex-flow: row nowrap;  
         justify-content: space-around; }
     nav li {
-        border-bottom: none;   }
+        border-bottom: none; }   }
+
+@media (max:width: 601px) {
     .navbar ul {
         display: flex;
         justify-content: space-around;  }
     .navbar li {
         display: inline-block; }
-    .navbar img {
-	    width: 100px; 
-	    height: auto; }
     }
 @media (max-width: 768px) {
     body {
@@ -516,7 +515,12 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 }
 
 @media (max-width: 1024px) {
-    #wrapper {
+@supports (display: grid){
+	header { grid-area: header; }
+	nav { grid-area: header; }
+	main { grid-area: footer; }
+	
+	#wrapper
         width: 100%;  
         padding: 0;  
     }
@@ -531,6 +535,7 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 	    width: 150px; 
 	    height: auto; 
     }
+	nav ul { display: inline-block; }
 }
 
 
