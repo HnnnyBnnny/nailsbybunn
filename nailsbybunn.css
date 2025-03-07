@@ -36,10 +36,11 @@ header .navbar a {
 					display: inline-block;
 					padding: 0; }
 
-header .navbar img{ width: 100px; 
-		    height: auto; 
-		    display: block; }
-					
+header .navbar img { 
+    width: 300px; 
+    height: auto; 
+    display: block; 
+}
 					
 header .navbar a:hover {
     background-color: #fddde6;
@@ -454,6 +455,12 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
     nav li {
         border-bottom: none; }   }
 
+header .navbar img { 
+    width: 300px; 
+    height: auto; 
+    display: block; 
+}
+
 @media (max:width: 601px) {
     .navbar ul {
         display: flex;
@@ -468,10 +475,11 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
     header h1 img {
         width: 100%; 
     }
-    header .navbar img {
-        width: 100px;
-	height: auto; 
-    }
+header .navbar img { 
+    width: 300px; 
+    height: auto; 
+    display: block; 
+}
     #wrapper {
         width: 100%; 
         min-width: 100%;  
@@ -536,6 +544,11 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 	    height: auto; 
     }
 	nav ul { display: inline-block; }
+	header .navbar img { 
+    width: 300px; 
+    height: auto; 
+    display: block; 
+}
 }
 
 
